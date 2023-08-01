@@ -2,6 +2,8 @@
 
 This template allows one to run a dockerized implementation of Airflow with support for the `R` programming language and the `nostR` R package.
 
+To use `nostR` functions, it is assumed that you have a working implementation of the nostr serverless API `NSA` and `nostr` private and public keys.
+
 To build first run:
 
 `docker compose --profile flower plain build`
