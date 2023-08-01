@@ -16,6 +16,8 @@ You can spin down the service with:
 
 Place your R scripts in the rscripts folder.
 
+Access the airflow webui at: `http://localhost:8080/home` with un: `airflow` and pw `airflow`.
+
 Store dags in the dag folder. Below is an example of a simple hourly dag that runs a sample R script:
 
 ```python
