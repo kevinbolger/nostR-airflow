@@ -1,0 +1,52 @@
+# Ignore R files and generated R data files
+*.R
+*.RData
+*.Rhistory
+*.Rproj*
+
+# Ignore Dockerfiles and generated Docker images
+*.dockerfile
+*.tar.gz
+
+# Ignore system files and directories
+.DS_Store
+Thumbs.db
+.desktop
+*.tmp
+*.log
+*.swp
+
+# Ignore common build and configuration directories
+/build/
+/config/
+/dist/
+/node_modules/
+/out/
+/tmp/
+
+# Ignore Airflow and Python files
+airflow/*.log
+airflow/*.pid
+airflow/logs/
+airflow/airflow.cfg
+
+# Ignore Python bytecode and cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.pyz/
+
+# Ignore virtual environment directories
+venv/
+env/
+
+dags/
+logs/
+rscripts/
+plugins/
+config/
+
+.vscode/
