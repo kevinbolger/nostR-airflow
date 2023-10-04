@@ -44,6 +44,7 @@ RUN apt-get install -y --no-install-recommends r-base-core && \
 
 # Install the devtools package
 RUN R -e "install.packages('devtools', repos = 'https://cloud.r-project.org/')"
+RUN R -e "install.packages('aws.s3', repos = 'https://cloud.r-project.org/')"
 
 # Install an R package from GitHub
 RUN R -e "devtools::install_github('kevinbolger/nostr')"

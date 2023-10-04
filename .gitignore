@@ -50,3 +50,4 @@ plugins/
 config/
 
 .vscode/
+.Rproj.user

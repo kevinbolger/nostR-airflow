@@ -6,7 +6,7 @@ To use `nostR` functions, it is assumed that you have a working implementation o
 
 To build first run:
 
-`docker compose --profile flower plain build`
+`docker compose --profile flower --progress plain build > build.log`
 
 Then spin up the resources with:
 
